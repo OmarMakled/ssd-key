@@ -1,32 +1,32 @@
 {
-"name": "ssd/license-key",
-"keywords": [
-"ssd",
-"license",
-"key",
-"hash",
-"timeout"
-],
-"authors": [
-{
-"name": "Omar",
-"email": "omar.makled@ssd.sa"
-}
-],
-"require": {
-"php": ">=5.4.0",
-"nesbot/carbon": "~1.19",
-"vlucas/phpdotenv": "^2.4"
-},
-"require-dev": {
-"phpunit/phpunit": "~5.0"
-},
-"autoload": {
-"psr-4": {
-"SSD\\LicenseKey\\": "src/"
-},
-"files": [
-"src/helper.php"
-]
-}
+    "name": "ssd/license-key",
+    "keywords": [
+        "ssd",
+        "license",
+        "key",
+        "hash",
+        "timeout"
+    ],
+    "authors": [
+        {
+            "name": "Omar",
+            "email": "omar.makled@ssd.sa"
+        }
+    ],
+    "require": {
+        "php": ">=5.4.0",
+        "nesbot/carbon": "~1.19",
+        "vlucas/phpdotenv": "^2.4"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "~5.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "SSD\\LicenseKey\\": "src/"
+        },
+        "files": [
+            "src/helper.php"
+        ]
+    }
 }
