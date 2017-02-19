@@ -8,7 +8,7 @@
     ],
     "require": {
         "php": ">=5.5.9",
-        "illuminate/support": "5.2.*|5.3.*"
+        "illuminate/support": "5.1.*|5.2.*|5.3.*"
     },
     "require-dev": {
         "phpunit/phpunit": "~5.0"
@@ -16,6 +16,11 @@
     "autoload": {
         "psr-4": {
             "SSD\\LicenseKey\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "SSD\\LicenseKey\\Tests\\": "tests/"
         }
     }
 }
